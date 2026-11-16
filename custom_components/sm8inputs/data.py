@@ -3,7 +3,7 @@ LINK = "https://sequentmicrosystems.com/products/eight-hv-digital-inputs-for-ras
 
 import lib8inputs
 API = lib8inputs
-DOMAIN = "SM8inputs"
+DOMAIN = "sm8inputs"
 NAME_PREFIX = "sm8i"
 SM_MAP = {
     "binary_sensor": {
