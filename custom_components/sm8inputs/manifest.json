@@ -1,14 +1,15 @@
 {
   "domain": "sm8inputs",
-  "name": "Sequent Microsystems Eight HV Digital Inputs Integration",
-  "after_dependencies": [],
+  "name": "Sequent Microsystems Eight HV Digital Inputs Card",
+  "categories": [
+    "diy_makers.boards_hardware"
+  ],
   "codeowners": ["@3lv", "@litinoveweedle"],
   "config_flow": true,
-  "dependencies": [],
   "documentation": "https://github.com/SequentMicrosystems/SM8inputs-ha",
   "integration_type": "device",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/SequentMicrosystems/SM8inputs-ha",
+  "issue_tracker": "https://github.com/SequentMicrosystems/SM8inputs-ha/issues",
   "requirements": ["SM8inputs>=1.0.2", "SMcommonHA>=0.0.3"],
   "version": "1.0.0"
 }
